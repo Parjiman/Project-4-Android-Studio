@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="Project 4"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/abuabum"
+        />
+
+    <EditText
+        android:id="@+id/searchField"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:inputType="text"
+        android:hint="Masukkan URL"
+        android:textColorHint="@color/abuabu"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visit"
+        android:onClick="openUrl"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Us"
+        android:layout_marginTop="350dp"
+        android:onClick="dialNumber"/>
+
+
+</LinearLayout>
